@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors:{
@@ -13,7 +14,14 @@ export default {
         brandGreen: '#2dcc6f',
         brandBlue: '#1376f4',
         brandWhite: '#eeeeee',
-      }
+      },
+      container: {
+        center: true,
+        padding: {
+          default: '1rem',
+          sm: '3rem',
+        },
+      },
     },
   },
   plugins: [],
